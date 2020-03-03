@@ -1,5 +1,3 @@
-package arcturus.libraries;
-
 /* Imports */
 import java.util.Random;
 import java.lang.StrictMath;
@@ -9,6 +7,8 @@ import java.lang.StrictMath;
  * 	0.9			Jan 10, 2020
  * 
  *  0.9.1		Jan 15, 2020
+ *  
+ *  1.0.1		Mar 2, 2020
  * 
  */
 /*	Edition Notes 
@@ -16,21 +16,21 @@ import java.lang.StrictMath;
  * 	Jan 11, 2020 - Edition 0.9.1.1
  * 	Jan 12, 2020 - Edition 0.9.1.2
  * 	Jan 13, 2020 - Edition 0.9.1.3		Exact Update
- *  Jan 14, 2020 - Edition 0.9.1.4		Array Update I
+ *  	Jan 14, 2020 - Edition 0.9.1.4		Array Update I
  * 	Jan 15, 2020 - Edition 0.9.1.5		Quadratic Formula Update
  * 	Jan 16, 2020 - Edition 0.9.1.6		toPrimitiveType Update
- *  Jan 25, 2020 - Edition 0.9.1.7		Array Update II
- *  Jan 27, 2020 - Edition 0.9.1.8		Array Update III
- *  Jan 28, 2020 - Edition 0.9.1.9		Emigration of Array methods to {@code ArcArrays}
+ *  	Jan 25, 2020 - Edition 0.9.1.7		Array Update II
+ * 	Jan 27, 2020 - Edition 0.9.1.8		Array Update III
+ *  	Jan 28, 2020 - Edition 0.9.1.9		Emigration of Array methods to {@code ArcArrays}
  * 	Jan 29, 2020 - Edition 0.9.1.10		Added list of available constants and methods
- *  Jan 31, 2020 - Edition 0.9.1.11		Added signum and changed name to {@code ArcMath}
- *  Feb 1, 2020 - Edition 0.9.1.12		Added copySign, rint, random, and IEEEremainder
- *  Feb 2, 2020 - Edition 0.9.1.13		Changed trigonometric functions to StrictMath from Math
- *  Feb 12, 2020 - Edition 0.9.1.14		Added floor, ceil, and hypot methods
- *  Feb 13, 2020 - Edition 0.9.1.15		Added next_, round, scalb, and ulp methods
- *  Feb 14, 2020 - Edition 0.9.1.16		Added boolean tests for number types
+ *  	Jan 31, 2020 - Edition 0.9.1.11		Added signum and changed name to {@code ArcMath}
+ *  	Feb 1, 2020 - Edition 0.9.1.12		Added copySign, rint, random, and IEEEremainder
+ *  	Feb 2, 2020 - Edition 0.9.1.13		Changed trigonometric functions to StrictMath from Math
+ *  	Feb 12, 2020 - Edition 0.9.1.14		Added floor, ceil, and hypot methods
+ *  	Feb 13, 2020 - Edition 0.9.1.15		Added next_, round, scalb, and ulp methods
+ *  	Feb 14, 2020 - Edition 0.9.1.16		Added boolean tests for number types
  * 	Feb 16, 2020 - Edition 0.9.1.17		Added checkContains methods and updated quadratic method description
- * 	Mar 2, 2020 - Edition 0.9.1.18		Added random method with specified max
+ * 	Mar 2, 2020 - Edition 1.0.1.0		Added random method with specified max and released on Github
  * 
  */
 /* 	Credits 
@@ -54,6 +54,7 @@ import java.lang.StrictMath;
 /*  Other libraries from Arcturus 
  * 	ArcArr ©2020
  *  ArcChem ©2020
+ *  ArcGraph ©2020
  *  ArcStr ©2020
  *  ArcPhys ©2020
  * 
@@ -70,7 +71,7 @@ public final class ArcMath {
 	/* Current Edition 
 	 * The current edition of the program.
 	 */
-	private static final String EDITION = "0.9.1.18";
+	private static final String EDITION = "1.0.1.0";
 	
 	/* e 
 	 * The double value that is closer than any other to
@@ -5368,6 +5369,7 @@ public final class ArcMath {
 				"    digitProd\n" +
 				"    isDivisibleBySum\n" +
 				"    isDivisibleByProd\n" +
+				"    reverseDigits\n" +
 				"    toDegrees\n" +
 				"    toRadians\n" +
 				"    sin\n" +
