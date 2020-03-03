@@ -4,11 +4,11 @@ import java.lang.StrictMath;
 
 /*  Edition Dates 
  * 
- * 	0.9			Jan 10, 2020
+ * 	0.9		Jan 10, 2020
  * 
- *  0.9.1		Jan 15, 2020
+ *  	0.9.1		Jan 15, 2020
  *  
- *  1.0.1		Mar 2, 2020
+ *  	1.0.1		Mar 2, 2020
  * 
  */
 /*	Edition Notes 
